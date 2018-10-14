@@ -89,12 +89,13 @@ Module.register('MMM-SystemStats', {
                         '<td class="value" style="text-align:left;">' + this.stats.freeMem + '</td>' +
                         '</tr>' +
                         '<tr>' +
-                        '<td class="title" style="text-align:' + self.config.align + ';">' + this.translate("UPTIME") + ':&nbsp;</td>' +
-                        '<td class="value" style="text-align:left;">' + this.stats.upTime + '</td>' +
-                        '</tr>';
-	  		'<td class="title" style="text-align:' + self.config.align + ';">' + this.translate("FREE SPACE") + ':&nbsp;</td>' +
+                        '<td class="title" style="text-align:' + self.config.align + ';">' + this.translate("FREE SPACE") + ':&nbsp;</td>' +
                         '<td class="value" style="text-align:left;">' + this.stats.sdCard + '</td>' +
                         '</tr>';
+	                '<td class="title" style="text-align:' + self.config.align + ';">' + this.translate("UPTIME") + ':&nbsp;</td>' +
+                        '<td class="value" style="text-align:left;">' + this.stats.upTime + '</td>' +
+                        '</tr>';
+	  		
 
     return wrapper;
   },
